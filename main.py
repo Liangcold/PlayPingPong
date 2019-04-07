@@ -63,8 +63,8 @@ while True:
     elif y > 510 and abs(a - x + 50) > 50:
         break
     sleep(0.005)
-    printtext(zt1, "移动鼠标控制乒乓板左右移动", 20, 30, white)
-    printtext(zt2, "得分", 550, 12, cs)
+    printtext(zt1, "move PingPongBoard by Mouse", 20, 30, white)
+    printtext(zt2, "Score", 550, 12, cs)
     printtext(zt2, str(pts), 560, 32, cs)
     pg.display.update()
 
